@@ -1,0 +1,82 @@
+-- table 4
+GA_rand 
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType crossoverProbability crossoverType mutationProbability mutationType
+           244         146                     0.43                           17       ranking                 0.70          _1px                0.63     exchange
+
+GA_adapt_rand
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType mutationProbability mutationType adaptiveLambda mediumWeight minWeight
+           194          70                     0.55                            6       ranking                0.44        shift           0.26         0.73      0.65
+
+GA_adapt_opt
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType mutationProbability mutationType adaptiveLambda mediumWeight minWeight
+           220          72                     0.23                            8       ranking                0.22     exchange           0.39         0.73      0.35
+
+-- table 5
+GA_rand_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType crossoverProbability crossoverType poissonLambda mutationType
+           216         200                     0.18                           17       ranking                 0.55          _1PX             4        shift
+
+GA_adapt_rand_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType poissonLambda mutationType adaptiveLambda mediumWeight minWeight
+           238         204                     0.42                           12       ranking             4     exchange           0.57         0.73      0.21
+
+GA_adapt_opt_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType poissonLambda mutationType adaptiveLambda mediumWeight minWeight
+           234          48                     0.24                            3       ranking             1        shift           0.44         0.69      0.23
+
+
+
+-- table 6
+GA_rand_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType crossoverProbability crossoverType poissonLambda mutationType
+           119          27                     0.13                            1       ranking                 0.78          _1PX             2        shift
+
+GA_adapt_rand_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType poissonLambda mutationType adaptiveLambda mediumWeight minWeight
+           102          54                     0.44                           16       ranking             4        shift           0.20         0.36      0.28
+
+GA_adapt_opt
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType mutationProbability mutationType adaptiveLambda mediumWeight minWeight
+           121          42                     0.47                            2       ranking                0.40        shift           0.29         0.80      0.73
+
+GA_adapt_opt_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType poissonLambda mutationType adaptiveLambda mediumWeight minWeight
+           112          29                     0.32                            3       ranking             1        shift           0.29         0.47      0.40
+
+
+
+-- table 7
+GA_rand_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType crossoverProbability crossoverType poissonLambda mutationType
+            77          42                     0.25                            9       ranking                 0.61           PMX             1        shift
+
+GA_adapt_rand_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType poissonLambda mutationType adaptiveLambda mediumWeight minWeight
+           102          38                     0.39                            8       ranking             3        shift           0.66         0.34      0.10
+
+GA_adapt_opt
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType mutationProbability mutationType adaptiveLambda mediumWeight minWeight
+           101          50                     0.56                            4       ranking                0.52     exchange           0.42         0.88      0.68
+
+GA_adapt_opt_pois   
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType poissonLambda mutationType adaptiveLambda mediumWeight minWeight
+           100           1                     0.20                           10       ranking             1        shift           0.20        0.80       0.30 
+
+
+
+-- table 8
+GA_rand_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType crossoverProbability crossoverType poissonLambda mutationType
+           100           1                     0.20                           10       ranking                 0.80          _1PX             1        shift
+
+GA_adapt_rand_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType poissonLambda mutationType adaptiveLambda mediumWeight minWeight
+           103          70                     0.51                            4       ranking             2        shift           0.25         0.83      0.33
+
+GA_adapt_opt
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType mutationProbability mutationType adaptiveLambda mediumWeight minWeight tourneySize
+           112          35                     0.36                            8       tourney                0.51     exchange           0.60         0.76      0.51          13
+
+GA_adapt_opt_pois
+populationSize elitesCount randomInitialProbability bestRandomPopulationInitSize selectionType poissonLambda mutationType adaptiveLambda mediumWeight minWeight
+           103          21                     0.20                           17       ranking             3     exchange           0.11         0.68      0.18
